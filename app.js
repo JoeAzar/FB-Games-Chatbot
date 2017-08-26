@@ -88,6 +88,10 @@ login({email: config.user , password: config.pass}, function callback (err, api)
 			function (err, rows) {
 				if(err)
 					console.error(err);
+				if(rows.length == 0) {
+					api.sendMessage("Play games to update your standings!", message.threadID);
+					return;
+				}
 				var str = '';
 				var mlen = 0;
 				for(var i = 0; i< rows.length; i++){
