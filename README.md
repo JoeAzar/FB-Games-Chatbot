@@ -35,3 +35,5 @@ You can run the cronjob with script.sh, mine looks something like this:
 `0 */12 * * * /usr/bin/sh .../Fb\ games/script.sh >/dev/null 2>&1`
 
 I have also provided a sample config file - you should probably `chmod 700` your own to prevent your dummy account from being hijacked.
+
+The `/genauthcode` functionality only works if you have access to the console log output. Essentially, it acts as an easy way to run commands as an admin. Nothing particularly important uses this, but some fun commands *can* be implemented by taking advantage of it.
