@@ -27,7 +27,7 @@ I have included a few files to make self-setup and db management easier:
 * **db.js** - wrapper for making a manual query to the database.
 * **Standings** - this is the sqlite db.
 * **script.sh** - this script is setup to automatically restart the bot within a cronjob.
-* **config.json** - where you will need to place your condifuration information for the bot's facebook account.
+* **config.json** - where you will need to place your configuration information for the bot's facebook account.
 
 The easiest way to start the bot is simply to run `node app.js` in the appropriate directory (a more advanced user might run the script within a tmux instance). The current configuration has the bot running within a cronjob that restarts it every 12 hours. There are certain errors attendant to the chat api and a regular restart was the least painful way to fix them.
 You can run the cronjob with script.sh, mine looks something like this:
