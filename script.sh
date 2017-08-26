@@ -2,6 +2,6 @@
 
 pkill node
 
-cd /home/anon/httpd/htdocs/users/ugrads/jazarwil/Fb\ games
+cd .../Fb\ games
 
 node app.js
