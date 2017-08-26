@@ -1,10 +1,10 @@
 {
-  "name": "abhi-bot",
-  "version": "2.0.0",
+  "name": "fb-games-chatbot",
+  "version": "1.0.0",
   "engines": {
     "node": "4.2.1"
   },
-  "description": "Way to notify yourself in group chats",
+  "description": "Way to keep track of overall scores in facebook games.",
   "main": "app.js",
   "dependencies": {
     "async": "^1.5.1",
@@ -20,16 +20,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webfreak7/AbhiNotif.git"
+    "url": "git+https://github.com/JoeAzar/FB-Games-Chatbot.git"
   },
   "keywords": [
-    "notifications",
+    "facebook games",
     "messenger"
   ],
-  "author": "Abhinav Suri",
+  "author": "Joe Azar-Williams",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/webfreak7/AbhiNotif/issues"
+    "url": "https://github.com/JoeAzar/FB-Games-Chatbot/issues"
   },
-  "homepage": "https://github.com/webfreak7/AbhiNotif#readme"
+  "homepage": "https://github.com/JoeAzar/FB-Games-Chatbot#readme"
 }
