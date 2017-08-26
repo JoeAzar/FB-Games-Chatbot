@@ -13,7 +13,7 @@ You can print this list at any time by typing **/help**.
 
 The bot will send trophies to reward notable achievements. Try it out yourself to see how you can earn them!
 
-IMPORTANT: The bot works by pulling the leaderboard out of the messages sent in the chat - you will need to play every game that you want to show up in the standings at least once so the bot can pull the information from it. It's also wise to check the standings after each initial game, as the bot can occasionally miss a message in a high volume chat.
+**IMPORTANT:** The bot works by pulling the leaderboard out of the messages sent in the chat - you will need to play every game that you want to show up in the standings at least once so the bot can pull the information from it. It's also wise to check the standings after each initial game, as the bot can occasionally miss a message in a high volume chat.
 
 ## To add the bot - Easy version
 
